@@ -1,0 +1,81 @@
+            body {
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+            
+            section {
+                height: 500px;
+                padding-bottom: 150px;
+            }
+            
+            h1 {
+                font-size: 50px;
+            }
+            
+            h2 {
+                font-size: 40px;
+            }
+            
+            p {
+                color: dimgray;
+            }
+            
+            .name-color,
+            .experiences h3 {
+                color: orange;
+            }
+            
+            .top-banner {
+                background-image: url(images/top-banner.png);
+                background-repeat: no-repeat;
+            }
+            
+            .half-width {
+                width: 40%;
+                margin-left: 5%;
+                padding-left: 2%;
+                float: left;
+            }
+            
+            .half-width img {
+                width: 100%;
+            }
+            
+            .button {
+                text-decoration: none;
+                background-image: linear-gradient(45deg, lightsalmon, tomato);
+                padding: 10px 40px;
+                color: white;
+                font-weight: 700;
+                border-radius: 5px;
+            }
+            
+            .dream {
+                background-image: url(images/dream-bg.png);
+                background-repeat: no-repeat;
+                background-position: right;
+            }
+            
+            .experiences {
+                background-image: url(images/exp-bg.png);
+                background-repeat: no-repeat;
+                background-position: left;
+            }
+            
+            .exp-area {
+                border-left: 7px solid;
+                height: 400px;
+                box-shadow: 5px 5px 50px gray;
+            }
+            
+            .experiences-border-img-1 {
+                border-image: linear-gradient(180deg, lightsalmon, tomato) 30;
+            }
+            
+            .experiences-border-img-2 {
+                border-image: linear-gradient(180deg, blue, cyan) 30;
+            }
+            
+            footer {
+                text-align: center;
+            }
